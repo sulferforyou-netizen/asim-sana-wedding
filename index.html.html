@@ -932,18 +932,18 @@ I warmly invite you all to celebrate my Nikkah, Barat, and Walima. Your prayers 
     /* ----------------------------------------------------
        3. BISMILLAH AUDIO RECITATION ENGINE
     ---------------------------------------------------- */
-   const bismillahAudioEl = new Audio('audio/bismillah.mp3');
-bismillahAudioEl.preload = 'auto';
+    const bismillahAudioEl = new Audio('audio/bismillah.mp3');
+    bismillahAudioEl.preload = 'auto';
 
-const weddingMusicEl = new Audio('audio/wedding-music.mp3');
-weddingMusicEl.loop = true;
-weddingMusicEl.volume = 0;
-weddingMusicEl.preload = 'auto';
+    const weddingMusicEl = new Audio('audio/wedding-music.mp3');
+    weddingMusicEl.loop = true;
+    weddingMusicEl.volume = 0;
+    weddingMusicEl.preload = 'auto';
 
-const bismillahBadge = document.getElementById('bismillahAudioBadge');
-const musicToggleButton = document.getElementById('musicToggleButton');
-let badgeTimer;
-let musicFadeInterval;
+    const bismillahBadge = document.getElementById('bismillahAudioBadge');
+    const musicToggleButton = document.getElementById('musicToggleButton');
+    let badgeTimer;
+    let musicFadeInterval;
 
 const WEDDING_MUSIC_VOLUME = 0.18;
 const MUSIC_FADE_TIME = 4000;
